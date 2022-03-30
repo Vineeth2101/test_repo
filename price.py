@@ -1,3 +1,5 @@
+
+#THIS IS PRICE API
 def coupon_details(request):
     retailer = request.GET.get("retailer", '')
     merchant = request.GET.get("merchant", '')
